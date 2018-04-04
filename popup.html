@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    main {
+      background: #333e85;
+      color: white;
+      font-family: 'Roboto';
+      width: 350px;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .message {
+      font-weight: 100;
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <h2 class="message">
+      You have visited
+      <span id="counter"></span> sites today
+    </h2>
+  </main>
+  <script src="popup.js"></script>
+</body>
+
+</html>
